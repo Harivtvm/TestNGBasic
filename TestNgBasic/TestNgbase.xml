@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="smoketest">
+	<test name="logincases">
+		<classes>
+			<class name="Testbasics.assign5"></class>
+			<class name="Testbasics.Assign6"></class>
+		</classes>
+	</test>
+</suite>

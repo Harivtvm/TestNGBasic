@@ -1,0 +1,29 @@
+
+<suite name="Multiplerun" thread-count="5" parallel="tests">
+	<test name="smoke">
+		<classes>
+			<class name="Testbasics.Assign2">
+				<methods>
+					<include name="verify_selected"></include>
+					<include name="verify_enabled"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="sanity">
+		<classes>
+			<class name="Testbasics.Assign6">
+			</class>
+		
+		</classes>
+	</test>
+	<test name="regression">
+		<classes>
+			<class name="Testbasics.DataProviderEg">
+				<methods>
+					<exclude name="verifylogin"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

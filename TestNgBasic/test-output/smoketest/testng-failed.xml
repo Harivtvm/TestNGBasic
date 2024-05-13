@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smoketest]">
+  <test thread-count="5" name="logincases(failed)">
+    <classes>
+      <class name="Testbasics.assign5">
+        <methods>
+          <include name="close"/>
+          <include name="verifysearch" invocation-numbers="4"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Testbasics.assign5 -->
+    </classes>
+  </test> <!-- logincases(failed) -->
+</suite> <!-- Failed suite [smoketest] -->

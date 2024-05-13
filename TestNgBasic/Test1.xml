@@ -1,0 +1,12 @@
+<suite name="newtest">
+	<test name="formsuite">
+		<classes>
+			<class name="Testbasics.Assign2">
+				<methods>
+					<include name="verify_selected"></include>
+					<include name="verify_enabled"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
